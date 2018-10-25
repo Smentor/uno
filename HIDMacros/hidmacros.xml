@@ -1,0 +1,294 @@
+<Config>
+  <General>
+    <Language>english</Language>
+    <ScriptLanguage>VBScript</ScriptLanguage>
+    <ProcBegin>Sub %s</ProcBegin>
+    <ProcEnd>End Sub</ProcEnd>
+    <ScriptRoutines></ScriptRoutines>
+    <MinimizeToTray>1</MinimizeToTray>
+    <StartMinimized>1</StartMinimized>
+    <AllowScriptGUI>0</AllowScriptGUI>
+    <ScriptTimeout>10</ScriptTimeout>
+    <BufferTimeout>2000</BufferTimeout>
+    <BufferNotification>1</BufferNotification>
+    <BackupsCount>0</BackupsCount>
+    <BackupPath>backup</BackupPath>
+  </General>
+  <Macros>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>alternar ventana</Name>
+      <KeyCode>100</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "%{tab}" 'al+ tabul</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>bloc de notas</Name>
+      <KeyCode>96</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+b" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>buscar con listary</Name>
+      <KeyCode>97</KeyCode>
+      <Direction>down</Direction>
+      <Action>SEQ</Action>
+      <Sequence>^&lt;</Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource></ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>cerrar</Name>
+      <KeyCode>8</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+d" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>escape</Name>
+      <KeyCode>103</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+j" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>maximizar ventana</Name>
+      <KeyCode>104</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+i" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>minimizar ventana</Name>
+      <KeyCode>98</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+g" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>MiPc</Name>
+      <KeyCode>13</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+f" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>mostrar escritorio 5</Name>
+      <KeyCode>101</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("Shell.Application")
+wsh.ToggleDesktop</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device></Device>
+      <Name>New Macro</Name>
+      <Direction>down</Direction>
+      <Action>SEQ</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource></ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+    <Macro>
+      <Device>teclado de macros</Device>
+      <Name>save bloc | recorte de chrome</Name>
+      <KeyCode>110</KeyCode>
+      <Direction>down</Direction>
+      <Action>SCR</Action>
+      <Sequence></Sequence>
+      <SCEvent></SCEvent>
+      <XPLCommand></XPLCommand>
+      <ScriptSource>Dim wsh
+Set wsh = CreateObject("WScript.Shell")
+wsh.SendKeys "^%+c" 'contrl+alt+shift+</ScriptSource>
+      <SCText>0</SCText>
+      <SCParams></SCParams>
+      <Command></Command>
+    </Macro>
+  </Macros>
+  <Devices>
+    <Game>
+      <Name>3Dconnexion KMJ Emulator</Name>
+      <SystemID>56DAB1C0:88F8:11E8:8009444553540000</SystemID>
+    </Game>
+    <Game>
+      <Name>SpaceNavigator</Name>
+      <SystemID>C6CA99C0:AB06:11E8:8001444553540000</SystemID>
+    </Game>
+    <Keyboard>
+      <Name>Keyb5</Name>
+      <SystemID>\\?\HID#3DXKMJ_HIDMINI&amp;COL02#1&amp;2D595CA7&amp;0&amp;0001#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb6</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_00#7&amp;34F440C5&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb7</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C31C&amp;MI_00#7&amp;27BE850&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>teclado de macros</Name>
+      <SystemID>\\?\HID#VID_248A&amp;PID_8367&amp;MI_01#7&amp;3AD928A&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Mouse>
+      <Name>Mouse6</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_01&amp;COL01#7&amp;1D30B480&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Mouse>
+      <Name>Mouse7</Name>
+      <SystemID>\\?\HID#3DXKMJ_HIDMINI&amp;COL01#1&amp;2D595CA7&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Mouse>
+      <Name>Mouse8</Name>
+      <SystemID>\\?\HID#VID_248A&amp;PID_8367&amp;MI_00&amp;COL01#7&amp;2784D04C&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Keyboard>
+      <Name>Keyb10</Name>
+      <SystemID>\\?\HID#VID_248A&amp;PID_8367&amp;MI_01#7&amp;D2D5145&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Mouse>
+      <Name>Mouse10</Name>
+      <SystemID>\\?\HID#VID_248A&amp;PID_8367&amp;MI_00&amp;COL01#7&amp;205D6D83&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Mouse>
+      <Name>Mouse9</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_01&amp;COL01#7&amp;1AF779A7&amp;1&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Keyboard>
+      <Name>Keyb9</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_00#7&amp;333ED62&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Mouse>
+      <Name>Mouse4</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_01&amp;COL01#7&amp;25B88E19&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Keyboard>
+      <Name>Keyb3</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_00#7&amp;39FD610&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb1</Name>
+      <SystemID>\\?\HID#VID_248A&amp;PID_8367&amp;MI_01#7&amp;2E346E45&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Keyboard>
+      <Name>Keyb2</Name>
+      <SystemID>\\?\ACPI#TOS1102#4&amp;A5F8106&amp;0#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Mouse>
+      <Name>Mouse3</Name>
+      <SystemID>\\?\ACPI#TOS0310#4&amp;A5F8106&amp;0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Mouse>
+      <Name>Mouse1</Name>
+      <SystemID>\\?\HID#VID_248A&amp;PID_8367&amp;MI_00&amp;COL01#7&amp;A5D3083&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Keyboard>
+      <Name>Keyb4</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_00#8&amp;381F54E&amp;0&amp;0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Keyboard>
+    <Mouse>
+      <Name>Mouse2</Name>
+      <SystemID>\\?\HID#VID_046D&amp;PID_C52B&amp;MI_01&amp;COL01#8&amp;20554874&amp;0&amp;0000#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}</SystemID>
+    </Mouse>
+    <Mouse>
+      <Name>Mouse5</Name>
+      <SystemID></SystemID>
+    </Mouse>
+  </Devices>
+  <Map>
+    <LastLatitude>50.10188601965</LastLatitude>
+    <LastLongitude>14.2264752029291</LastLongitude>
+    <LastZoom>13</LastZoom>
+    <Locked>1</Locked>
+    <AlwaysOnTop>0</AlwaysOnTop>
+    <WindowLeft>104</WindowLeft>
+    <WindowTop>104</WindowTop>
+    <WindowWidth>434</WindowWidth>
+    <WindowHeight>321</WindowHeight>
+    <WindowMaximized>0</WindowMaximized>
+    <WindowVisible>0</WindowVisible>
+    <ShowLayers>1</ShowLayers>
+  </Map>
+</Config>
